@@ -49,6 +49,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Motivational Quotes</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -78,13 +81,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Projects</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <!-- <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Freelance Web Developer</h3>
             <div class="subheading mb-3">BT Systematic Solutions (sole proprietorship)</div>
-            <p>Creating blogs and personalized websites with a focus on simplicity and ease of use for mobile interfaces. Consultancy in Engineering Design Methodology, including CAD drafting and fine-tuning PID controls.</p>
+            <p>Creating blogs and personalized websites with a focus on simplicity and ease of use for mobile interfaces. Consultancy in Engineering Design Methodology, CAD, and fine-tuning PID controls.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">November 2019 - Present</span>
@@ -158,7 +161,7 @@
         </break>
         </section>
 
-    <hr class="m-0">
+    <hr class="m-0"> -->
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
@@ -188,6 +191,59 @@
         </section>
   </div>
 
+  <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="quotes">
+      <div class="w-100">
+        <h2 class="mb-5">Motivational Quotes</h2>
+        <div id="timerSection">
+          <div class="container text-center">
+            <h1 id="timer"><time>00:00:00</time></h1>
+    
+            <div class="row" id="buttonsContainer">
+              <div class="col-sm-4">
+                <div class="startBtn">
+                  <img
+                    id="start"
+                    src="assets/images/play.png"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <p id="textBtn">
+                  Press this button when you are ready to start studiyng
+                </p>
+              </div>
+    
+              <div class="col-sm-4">
+                <div class="pauseBtn">
+                  <img
+                    id="pause"
+                    src="assets/images/pause.png"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <p id="textBtn">Press this button to take a break</p>
+              </div>
+    
+              <div class="col-sm-4">
+                <div class="stopBtn">
+                  <img
+                    id="stop"
+                    src="assets/images/stop.png"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <p id="textBtn">Press this button when you are finished studying</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </section>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -197,6 +253,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <!-- Motivational Quotes -->
+  <script type="text/javascript" src="js/quotesAPI.js"></script>
 
 </body>
 
